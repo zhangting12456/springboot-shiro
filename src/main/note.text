@@ -1,0 +1,10 @@
+spring boot与shiro的整合
+加入shiro配置类
+   》Realm   ===== 自定义Myrealm继承 AuthorizingRealm 重写 认证和授权的方法；
+   》SecurityManager ====  关联 Realm，关联rememberMe
+   》ShiroFilterFactoryBean ==== 关联 Securitymanager，实现各种内置过滤器
+   记住我功能的实现rememberMe
+   》SimpleCookie ==== cokie的简单配置
+   》CookieRememberMeManager ===== 关联cookie
+   shiro与thymeleaf的整合
+   》ShiroDialect
